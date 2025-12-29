@@ -105,19 +105,19 @@ The final output is a synthesized kill chain spanning all 7 phases. This chain r
 Key Parameters and Tuning
 -------------------------
 
-k (Transformer priors)
+ - k (Transformer priors)
   Number of top techniques selected per phase.
 
-top_m (MCTS)
+ - top_m (MCTS)
   Maximum number of candidate techniques expanded per phase.
 
-sims (MCTS)
+ - sims (MCTS)
   Number of Monte Carlo simulations.
 
-c_puct (MCTS)
+ - c_puct (MCTS)
   Exploration versus exploitation balance.
 
-epochs (PVNet)
+ - epochs (PVNet)
   Number of training epochs for the context-specific PVNet.
 
 Increasing k, top_m, or sims increases exploration at the cost of runtime.
