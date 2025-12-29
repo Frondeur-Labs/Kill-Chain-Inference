@@ -28,13 +28,13 @@ artifacts/
 Precomputed embeddings, technique labels, and mitigation statistics.
 
 core/
-encoder.py – AttackBERT encoder wrapper
-priors/ – Transformer-based phase inference
-paths/ – Baseline transformer path construction
-mdp.py – Symbolic MDP and reward computation
-pvnet.py – Policy–Value Network and training utilities
-mcts.py – Policy–Value guided Monte Carlo Tree Search
-artifacts.py – Artifact loading utilities
+      encoder.py        – AttackBERT encoder wrapper
+      priors/           – Transformer-based phase inference
+      paths/            – Baseline transformer path construction
+      mdp.py            – Symbolic MDP and reward computation
+      pvnet.py          – Policy–Value Network and training utilities
+      mcts.py           – Policy–Value guided Monte Carlo Tree Search
+      artifacts.py      – Artifact loading utilities
 
 models/
 Trained transformer phase models.
