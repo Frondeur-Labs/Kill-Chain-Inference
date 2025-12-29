@@ -25,28 +25,28 @@ Repository Structure
 --------------------
 
 artifacts/
-  Precomputed embeddings, technique labels, and mitigation statistics.
+Precomputed embeddings, technique labels, and mitigation statistics.
 
 core/
-  encoder.py        – AttackBERT encoder wrapper
-  priors/           – Transformer phase inference
-  paths/            – Baseline transformer path construction
-  mdp.py            – Symbolic MDP and reward computation
-  pvnet.py          – Policy–Value Network and training utilities
-  mcts.py           – Policy–Value guided MCTS
-  artifacts.py      – Artifact loading utilities
+encoder.py – AttackBERT encoder wrapper
+priors/ – Transformer-based phase inference
+paths/ – Baseline transformer path construction
+mdp.py – Symbolic MDP and reward computation
+pvnet.py – Policy–Value Network and training utilities
+mcts.py – Policy–Value guided Monte Carlo Tree Search
+artifacts.py – Artifact loading utilities
 
 models/
-  Trained transformer phase models.
+Trained transformer phase models.
 
 sample_input.txt
-  User-provided CTI input text.
+Example CTI / incident report input.
 
 main.py
-  End-to-end execution entry point.
+End-to-end execution entry point.
 
 requirements.txt
-  Python dependencies.
+Python dependencies.
 
 ---
 
@@ -55,7 +55,7 @@ Installation
 
 1. Create a virtual environment
 
-python -m venv venvsource venv/bin/activate   (Linux / macOS)venv\Scripts\activate    (Windows)
+python -m venv venvsource venv/bin/activate
 
 2. Install dependencies
 
