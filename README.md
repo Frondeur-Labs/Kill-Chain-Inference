@@ -55,27 +55,33 @@ Installation
 
 1. Create a virtual environment
 
-python -m venv venvsource venv/bin/activate
+    python -m venv venv
+    source venv/bin/activate
 
 2. Install dependencies
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
+
 
 ---
 
 Running the System
 ------------------
 
-1. Provide inputEdit sample_input.txt and paste a CTI-style report. For meaningful results, the input should describe attacker behavior across multiple phases and contain sufficient detail.
-2. Execute
+1. Provide input
 
-python main.py
+   Edit `sample_input.txt` and paste a CTI-style report.
+   For meaningful results, the input should describe attacker behavior
+   across multiple phases and contain sufficient detail.
 
-OR
+2. Execute via CLI
 
-streamlit run app.py
+    python main.py
 
----
+   OR launch the Streamlit UI
+
+    streamlit run app.py
+
 
 Output Interpretation
 ---------------------
