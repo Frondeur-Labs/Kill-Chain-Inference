@@ -47,7 +47,6 @@ End-to-end execution entry point.
 
 requirements.txt
 Python dependencies.
-
 ---
 
 Installation
