@@ -1,0 +1,5 @@
+The adversary conducted extensive reconnaissance against publicly exposed web services and enterprise-facing applications to identify misconfigurations and accessible attack surfaces. After profiling the target environment, the attacker initiated a phishing campaign that delivered a weaponized document to multiple internal users through spearphishing emails.
+
+Upon execution, the malicious document dropped a secondary payload that established persistence on the compromised host by modifying system-level configuration and startup mechanisms. The payload leveraged legitimate system utilities to evade detection and maintain operational stealth.
+
+Following successful installation, the malware initiated outbound communication to attacker-controlled command and control infrastructure using common application-layer protocols. This channel was used to receive additional instructions, exfiltrate collected data, and facilitate further actions on objectives within the victim environment.
