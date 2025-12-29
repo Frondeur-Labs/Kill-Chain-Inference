@@ -24,10 +24,10 @@ The execution pipeline consists of six stages:
 Repository Structure
 --------------------
 
-artifacts/
-Precomputed embeddings, technique labels, and mitigation statistics.
+    artifacts/
+      Precomputed embeddings, technique labels, and mitigation statistics.
 
-core/
+    core/
       encoder.py        – AttackBERT encoder wrapper
       priors/           – Transformer-based phase inference
       paths/            – Baseline transformer path construction
@@ -36,17 +36,18 @@ core/
       mcts.py           – Policy–Value guided Monte Carlo Tree Search
       artifacts.py      – Artifact loading utilities
 
-models/
-Trained transformer phase models.
+    models/
+      Trained transformer phase models.
 
-sample_input.txt
-Example CTI / incident report input.
+    sample_input.txt
+      Example CTI / incident report input.
 
-main.py
-End-to-end execution entry point.
+    main.py
+      End-to-end execution entry point.
 
-requirements.txt
-Python dependencies.
+    requirements.txt
+      Python dependencies.
+
 ---
 
 Installation
